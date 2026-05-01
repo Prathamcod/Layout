@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <header id="head">
+      <nav class="flex max-w-7xl m-auto p-2 justify-between items-center">
+        <div class="flex gap-4 items-center">
+          <img
+            class="w-10 h-10"
+            src="./img/shadcn-ui-logo-png_seeklogo-519786.png"
+          />
+          <h1 class="text-xl font-bold">shadcn/studio</h1>
+        </div>
+
+        <!-- menuList -->
+        <ul class="hidden md:flex items-center gap-5 text-gray-500">
+          <li>
+            <a class="px-4 py-2 rounded-2xl cursor-pointer hover:bg-gray-300"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a class="px-4 py-2 rounded-2xl cursor-pointer hover:bg-gray-300"
+              >Marketing</a
+            >
+          </li>
+          <li>
+            <a class="px-4 py-2 rounded-2xl cursor-pointer hover:bg-gray-300"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <!-- multi icons -->
+        <div class="flex items-center gap-2">
+          <i
+            class="fa fa-search md:hidden text-black p-2 border-2 border-gray-500 bg-gray-300 rounded-md"
+          ></i>
+          <i
+            class="fa fa-bell p-2 border-2 border-gray-500 bg-gray-300 rounded-md"
+          ></i>
+
+          <img
+            class="size-9 rounded-xl bg-gray-300 p-1"
+            src="./img/avatar-1.webp"
+          />
+
+          <button class="md:hidden">
+            <i
+              class="fa fa-bars p-2 border-2 border-gray-500 rounded-md bg-gray-300"
+            ></i>
+          </button>
+        </div>
+      </nav>
+      <hr class="border-t" />
+
+      <nav
+        class="max-w-7xl m-auto hidden md:flex gap-3 justify-between items-center p-2"
+      >
+        <ul class="flex gap-6 text-gray-400 font-semibold">
+          <li><a class="hover:text-gray-500">Project</a></li>
+          <li><a class="hover:text-gray-500">Sales</a></li>
+          <li><a class="hover:text-gray-500">Team</a></li>
+          <li><a class="hover:text-gray-500">Tasks</a></li>
+          <li><a class="hover:text-gray-500">Blog</a></li>
+        </ul>
+
+        <div class="flex gap-2">
+          <input
+            class="border-2 w-80 h-10 px-2 rounded-md"
+            placeholder="search"
+          />
+          <div class="px-4 py-2 bg-gray-800 rounded-md">
+            <i class="fa fa-search text-white"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- hero section  -->
+    <section class="w-full py-40 text-end bg-gray-700 text-white">
+      <div class="max-w-7xl m-auto space-y-4 px-6 md:px-5">
+        <h1 class="text-4xl font-bold">One more for good measure.</h1>
+        <p>
+          Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id
+          elit non mi porta gravida at eget metus. Nullam id dolor id nibh
+          ultricies vehicula ut id elit. Previous
+        </p>
+        <button class="px-8 py-2 bg-blue-400 text-xl font-semibold rounded-md">
+          Browser Gallery
+        </button>
+      </div>
+    </section>
+
+    <!-- heading section -->
+    <section
+      class="grid grid-cols-1 md:grid-cols-3 max-w-7xl m-auto mt-5 gap-4 text-center border-b-2 p-10"
+    >
+      <article>
+        <div
+          class="w-40 m-auto h-40 rounded-full bg-gray-400 place-items-center"
+        ></div>
+        <h1 class="text-3xl font-bold">Heading</h1>
+        <p class="text-xl text-gray-500">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
+          vitae, earum porro iusto unde necessitatibus eveniet enim voluptatibus
+          repellat id!
+        </p>
+        <button
+          class="px-8 py-2 text-xl bg-gray-500 mt-5 text-white font-semibold rounded-md"
+        >
+          view details
+        </button>
+      </article>
+      <article>
+        <div
+          class="w-40 m-auto h-40 rounded-full bg-gray-400 place-items-center"
+        ></div>
+        <h1 class="text-3xl font-bold">Heading</h1>
+        <p class="text-xl text-gray-500">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
+          vitae, earum porro iusto unde necessitatibus eveniet enim voluptatibus
+          repellat id!
+        </p>
+        <button
+          class="px-8 py-2 text-xl bg-gray-500 mt-5 text-white font-semibold rounded-md"
+        >
+          view details
+        </button>
+      </article>
+      <article>
+        <div
+          class="w-40 m-auto h-40 rounded-full bg-gray-400 place-items-center"
+        ></div>
+        <h1 class="text-3xl font-bold">Heading</h1>
+        <p class="text-xl text-gray-500">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
+          vitae, earum porro iusto unde necessitatibus eveniet enim voluptatibus
+          repellat id!
+        </p>
+        <button
+          class="px-8 py-2 text-xl bg-gray-500 mt-5 text-white font-semibold rounded-md"
+        >
+          view details
+        </button>
+      </article>
+    </section>
+
+    <section class="py-16">
+      <article
+        class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6 py-12 border-b"
+      >
+        <div>
+          <h1
+            class="text-3xl md:text-5xl font-light text-gray-600 leading-tight"
+          >
+            First featurette heading. It'll blow your mind.
+          </h1>
+          <p class="mt-6 text-gray-500 text-lg leading-relaxed">
+            Donec ullamcorper nulla non metus auctor fringilla...
+          </p>
+        </div>
+
+        <div
+          class="w-full aspect-square bg-gray-300 flex items-center justify-center text-gray-500 text-2xl"
+        >
+          500x500
+        </div>
+      </article>
+
+      <article
+        class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6 py-12 border-b"
+      >
+        <!-- Image -->
+        <div
+          class="order-2 md:order-1 w-full aspect-square bg-gray-300 flex items-center justify-center text-gray-500 text-2xl"
+        >
+          500x500
+        </div>
+
+        <!-- Text -->
+        <div class="order-1 md:order-2">
+          <h1
+            class="text-3xl md:text-5xl font-light text-gray-600 leading-tight"
+          >
+            First featurette heading. It'll blow your mind.
+          </h1>
+          <p class="mt-6 text-gray-500 text-lg leading-relaxed">
+            Donec ullamcorper nulla non metus auctor fringilla...
+          </p>
+        </div>
+      </article>
+
+      <!-- Block 3 -->
+      <article
+        class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6 py-12 border-b-2"
+      >
+        <div>
+          <h1
+            class="text-3xl md:text-5xl font-light text-gray-600 leading-tight"
+          >
+            First featurette heading. It'll blow your mind.
+          </h1>
+          <p class="mt-6 text-gray-500 text-lg leading-relaxed">
+            Donec ullamcorper nulla non metus auctor fringilla...
+          </p>
+        </div>
+
+        <div
+          class="w-full aspect-square bg-gray-300 flex items-center justify-center text-gray-500 text-2xl"
+        >
+          500x500
+        </div>
+      </article>
+    </section>
+
+    <!-- Footer -->
+    <footer class="flex max-w-7xl m-auto justify-between py-10 p-5 md:p-2">
+      <p class="*:text-blue-400 space-x-1">
+        © 2017-2018 Company, Inc
+        <a href="#" class="hover:underline">privacy</a>
+        <a href="#" class="hover:underline">term</a>
+      </p>
+      <a href="#head" class="text-blue-400 hover:underline">Back to top</a>
+    </footer>
+  </body>
+</html>
